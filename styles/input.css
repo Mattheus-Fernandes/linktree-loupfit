@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.access-link {
+    @apply flex justify-center items-center gap-3 bg-pink-600 text-white text-lg py-6 rounded-se-3xl rounded-es-3xl shadow-md shadow-pink-900 border border-e-2 border-pink-900;
+}
+
+.text-link {
+    @apply text-lg tracking-wider text-gray-200;
+}
+
+.icon-link {
+    @apply w-8;
+}
